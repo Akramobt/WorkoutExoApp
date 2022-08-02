@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import {Box} from '@mui/material';
 import BodyPart from './BodyPart';
 import {ScrollMenu,VisibilityContext} from 'react-horizontal-scrolling-menu';
-import {Button,Stack,Typography} from '@mui/material';
+import {Typography} from '@mui/material';
 import ExerciseCard from './ExerciseCard';
 import RightArrowIcon from '../assets/icons/right-arrow.png';
 import LeftArrowIcon from '../assets/icons/left-arrow.png';
