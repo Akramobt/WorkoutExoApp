@@ -5,6 +5,7 @@ import {exerciseOptions,fetchData} from '../utils/fetchData';
 import ExerciseCard from '../components/ExerciseCard';
 
 const Excersises = ({excercises,setExercises,bodyPart}) => {
+  //const setExo2=setExercises;
   console.log(excercises);
   const [currentPage,setCurrentPage] =useState(1);
   const exercisesPerPage=9; 
@@ -19,6 +20,7 @@ const Excersises = ({excercises,setExercises,bodyPart}) => {
 
   }
   useEffect(() => {
+    
     const fetchExercisesData = async () => {
       let exercisesData = [];
 
@@ -32,7 +34,7 @@ const Excersises = ({excercises,setExercises,bodyPart}) => {
     };
 
     fetchExercisesData();
-  }, [bodyPart]);
+  }, [setExercises,bodyPart]);
 
   return (
     <Box id="excercises"
