@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/88b10040-95a5-4025-aad6-0112ca93753d/deploy-status)](https://app.netlify.com/sites/workoutexerciseapp/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
